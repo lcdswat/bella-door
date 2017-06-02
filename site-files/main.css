@@ -69,6 +69,7 @@ h1 {
 	background-image: url(logo.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: 40%;
 }
 
 #contacts {
@@ -77,7 +78,6 @@ h1 {
 	top: 5%;
 	text-align: left;
 	color: white;
-	font-size: 1em;
 }
 
 #what h1 {
@@ -98,7 +98,7 @@ h1 {
 	position: relative;
 	margin: 0 0 -190px 0;
 	padding: 50px 0 20px 0;
-	z-index: 999;
+	z-index: 998;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6e7cf+98,d6e7cf+100&1+0,0+100 */
 background: -moz-linear-gradient(top, rgba(214,231,207,1) 0%, rgba(214,231,207,0.02) 98%, rgba(214,231,207,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(214,231,207,1) 0%,rgba(214,231,207,0.02) 98%,rgba(214,231,207,0) 100%); /* Chrome10-25,Safari5.1-6 */

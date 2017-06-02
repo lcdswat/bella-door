@@ -7,11 +7,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png"> 
+	<link rel="shortcut icon" href="/site-files/favicon.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 
-<!-- <div id="preloader"></div> -->
+<div id="preloader"></div>
 
 <div id="header">
 	<div id="contacts">
@@ -55,7 +56,7 @@
 <div id="map"></div>
 
 <div id="footer">
-	Сайт находится в&nbsp;разработке.<br>По всем вопросам звоните <a href="tel:+79874722702">+7 987 472-27-02</a>
+	Сайт находится в&nbsp;разработке.<br>По всем вопросам звоните <a href="tel:+79874722702">+7&nbsp;987&nbsp;472-27-02</a>
 </div>
 
 <!-- Прелоадер -->
@@ -65,7 +66,7 @@
 	    	$('#preloader').fadeOut('slow');
 	    },1000);
 	    setTimeout(function(){
-	    	$('body').css('overflow', 'auto');
+	    	// $('body').css('overflow', 'auto');
 	    },1700);
 	});
 </script>
